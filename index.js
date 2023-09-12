@@ -10,7 +10,11 @@
  */
 
 // Part 1 answer 👇🏻 ...
-
+let fullName = `Dalal`;
+let yearOfBirth = 1983
+let hobby = `studycoded`
+let funFact = `jokewithfamily`
+const image = `https://media.istockphoto.com/id/492418894/vector/fun-sign.jpg?s=612x612&w=0&k=20&c=hPUa8EdrNAyf2UuPWAIMFZYFsIGKxTX0kyPhPwZBu48=`
 
 
 
@@ -33,6 +37,24 @@
 // const yearOfBirthString =
 // const hobbyString =
 
+// Define the variables
+const FullName = "Dalal"; // Replace with your actual name
+const birthYear = 1983; // Replace with your actual birth year
+const currentYear = new Date(27).getFullYear(1983);
+const age = currentYear - birthYear; // Calculate your age
+const Hobby = "let hobby = `studycoded`";
+
+// Interpolate the variables into strings
+const fullNameString = `My name is ${Dalal}`;
+const yearOfBirthString = `I am ${40} years old`;
+const hobbyString = `My hobby is ${`studycoded`}`;
+
+// Uncomment the following lines and start interpolating.
+// You can uncomment a line by removing the // at the start
+// const fullNameString = `My name is ${fullName}`;
+// const yearOfBirthString = `I am ${age} years old`;
+// const hobbyString = `My hobby is ${hobby}`;
+
 
 
 
@@ -44,15 +66,19 @@
 let stars = 0;
 
 function incrementBy1() {
-  // Increment stars by 1 👇🏻
+ // Increment stars by 1 👇🏻
+ Stars += 1;
 }
 function decrementBy1() {
-  // decrement stars by 1 👇🏻
+ // decrement stars by 1 👇🏻
+ Stars -= 1;
 }
 
 function incrementBy2() {
-  // Increment stars by 2 👇🏻
+ // Increment stars by 2 👇🏻
+ Stars += 2;
 }
 function decrementBy2() {
-  // decrement stars by 2 👇🏻
+ // decrement stars by 2 👇🏻
+ Stars -= 2;
 }
